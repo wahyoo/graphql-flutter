@@ -52,7 +52,7 @@ class SocketClientConfig {
         'WARNING: Using a legacyInitPayload which will be removed soon. '
         'If you need this particular payload serialization behavior, '
         'please comment on this issue with details on your usecase: '
-        'https://github.com/zino-app/graphql-flutter/pull/137',
+        'https://github.com/zino-app/graphql-flutter/pull/277',
       );
       return LegacyInitOperation(legacyInitPayload);
     }
