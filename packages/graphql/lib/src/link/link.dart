@@ -40,4 +40,4 @@ class Link {
 }
 
 Stream<FetchResult> execute({Link link, Operation operation}) =>
-    link.request(operation).timeout(Duration(seconds: 180));
+    link.request(operation).timeout(Duration(seconds: 30));
